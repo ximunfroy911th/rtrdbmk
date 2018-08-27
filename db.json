@@ -1,0 +1,662 @@
+{
+  "/home": {
+    "get": {
+      "data": [
+        {
+          "id": 1,
+          "name": "Steve"
+        }
+      ]
+    },
+    "post": {
+      "data": [
+        {
+          "id": 1,
+          "name": "Steve French"
+        }
+      ]
+    }
+  },
+  "/consent/accept": {
+    "post": {}
+  },
+  "/mobile/data/configuration/location": {
+    "get": {}
+  },
+  "/mobile/data/configuration": {
+    "get": {}
+  },
+  "/mobile/version": {
+    "get": {
+      "android": {
+        "minBuild": 55,
+        "latestBuild": 55,
+        "bannerUrl": "https://connect.dtac.co.th/checkin/webcontrol/files/dtacone/What_s_new/Donut_270_what\u0027s_new_s.png"
+      },
+      "ios": {
+        "minBuild": 530,
+        "latestBuild": 530,
+        "bannerUrl": "https://connect.dtac.co.th/checkin/webcontrol/files/dtacone/What_s_new/Donut_270_what\u0027s_new_s.png"
+      }
+    }
+  },
+  "/mobile/version/configuration": {
+    "get": {
+      "version": "55",
+      "url": "http://f0bc37c2.ngrok.io/mobile/data/configuration"
+    }
+  },
+  "/mobile/version/configuration/location": {
+    "get": {
+      "version": "6",
+      "url": "http://f0bc37c2.ngrok.io/mobile/data/configuration/location"
+    }
+  },
+  "/rtrshortinfo": {
+    "get": {
+      "id": 43925,
+      "status": "ACTIVE",
+      "userType": "OWNER",
+      "channel": "retail",
+      "subChannel": "area distribution",
+      "retailerType": "telecom",
+      "retailerSubType": "blue shop",
+      "rtrName": "ผ้าห่มออนไลน์",
+      "simr": "66618941097",
+      "dtrCode": "938507",
+      "rtrCode": "71144425"
+    }
+  },
+  "/retailer/dol/status": {
+    "get": {
+      "status": "ACTIVE"
+    }
+  },
+  "/mrtr/permissions/43925": {
+    "get": {
+      "permissions": [
+        {
+          "name": "TOPUP",
+          "description": "เติมเงินออนไลน์",
+          "allow": "Y"
+        },
+        {
+          "name": "STV",
+          "description": "โปรเสริมออนไลน์",
+          "allow": "Y"
+        },
+        {
+          "name": "E-PIN",
+          "description": "ขายรหัสเงินสด",
+          "allow": "Y"
+        },
+        {
+          "name": "RECTIFY",
+          "description": "ดึงเงินคืน/ยกเลิกโปรเสริม",
+          "allow": "Y"
+        },
+        {
+          "name": "CHANGE_SIM",
+          "description": "ซิมใหม่เบอร์เดิม",
+          "allow": "Y"
+        },
+        {
+          "name": "PREPAID_REGISTRATION",
+          "description": "จดทะเบียนซิมเติมเงิน",
+          "allow": "Y"
+        },
+        {
+          "name": "PREPAID_RE-REGISTRATION",
+          "description": "แก้ไขข้อมูลซิมเติมเงิน",
+          "allow": "Y"
+        },
+        {
+          "name": "POSTPAID_REGISTRATION",
+          "description": "จดทะเบียนซิมรายเดือน",
+          "allow": "Y"
+        },
+        {
+          "name": "PRE2POST",
+          "description": "เปลี่ยนเติมเงินเป็นรายเดือน",
+          "allow": "Y"
+        },
+        {
+          "name": "PORTIN_PREPAID",
+          "description": "ย้ายค่ายเบอร์เดิม",
+          "allow": "Y"
+        },
+        {
+          "name": "RTR_PERFORMANCE",
+          "description": "รายงาน",
+          "allow": "Y"
+        },
+        {
+          "name": "STAFF_MANAGE",
+          "description": "จัดการพนักงาน",
+          "allow": "Y"
+        },
+        {
+          "name": "STAFF_PERMISSION",
+          "description": "จัดการสิทธิ์พนักงาน",
+          "allow": "Y"
+        },
+        {
+          "name": "BUY_DOL",
+          "description": "ซื้อเงินเข้าเบอร์ออนไลน์",
+          "allow": "Y"
+        },
+        {
+          "name": "BUY_DOL_HISTORY",
+          "description": "ดูรายการย้อนหลัง",
+          "allow": "Y"
+        },
+        {
+          "name": "RTR_PROFILE",
+          "description": "แก้ไขข้อมูลร้านค้า",
+          "allow": "Y"
+        },
+        {
+          "name": "ONLINE_STORE",
+          "description": "online store",
+          "allow": "Y"
+        }
+      ]
+    }
+  },
+  "/postpaid-registration/config": {
+    "get": {}
+  },
+  "/prepaid-registration/registration/consent/43925": {
+    "get": {
+      "mrtrConsentId": 1,
+      "consent": "ยอมรับ",
+      "consentVersionLabel": "1.0"
+    }
+  },
+  "/prepaid-registration/phonenumber": {
+    "post": {
+      "simcardNumber": "896605131142516157",
+      "companyCode": "10",
+      "simType": "NUMBERING_POOL",
+      "subscriberNumber": "66871111334"
+    }
+  },
+  "/prepaid-registration/phonenumber/v2": {
+    "get": {
+      "simcardNumber": "896605131142516157",
+      "companyCode": "10",
+      "simType": "NORMAL_SIM",
+      "subscriberNumber": "66871111334",
+      "autoAssignNumberMessage": null
+    }
+  },
+  "/prepaid-registration/registration": {
+    "post": {
+      "status": "success",
+      "rtrTransactionId": "4738E2E4A58746759BBB9E14A34DD022"
+    }
+  },
+  "/prepaid-registration/registration/v2": {
+    "post": {
+      "status": "success",
+      "rtrTransactionId": "4738E2E4A58746759BBB9E14A34DD022"
+    }
+  },
+  "/prepaid-registration/otp": {
+    "post": {
+      "transactionId": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "simcardData": {
+        "subscriberNumber": "66871111334",
+        "simcardNumber": "896605131142516157",
+        "companyCode": "10"
+      }
+    }
+  },
+  "/prepaid-registration/otp/32323": {
+    "get": {},
+    "post": {
+      "transactionId": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "simcardData": {
+        "subscriberNumber": "66871111334",
+        "simcardNumber": "896605131142516157",
+        "companyCode": "10"
+      }
+    }
+  },
+  "/prepaid-registration/update/camera": {
+    "get": {
+      "allow": true
+    }
+  },
+  "/prepaid-registration/registration/send/image": {
+    "post": {
+      "filename": "MRTR_PREPAID_REGIS_IMAGE_41414_414141_12121.jpg"
+    }
+  },
+  "/prepaid-registration/image": {
+    "post": {
+      "filename": "DONE_PRE_4324234_23233_234234234.jpg"
+    }
+  },
+  "/prepaid-registration/update/profile": {
+    "post": {
+      "status": "success"
+    }
+  },
+  "/prepaid-registration/registration/card/validate": {
+    "post": {
+      "identityType": "THAI_NATIONAL_ID_CARD",
+      "identityNumber": "11871111334",
+      "address1": "101/10 ม.2 ต.สวนใหญ่",
+      "isSmartCardData": false,
+      "simcardNumber": "6688333993",
+      "subscriberNumber": "66888333",
+      "data": [
+        {
+          "provinceCode": "02",
+          "postcodeSeq": "1",
+          "amphurName": "เมือง",
+          "postcode": "11003",
+          "countryCode": "66",
+          "countryName": "ไทย",
+          "provinceName": "นนทบุรี"
+        },
+        {
+          "ProvinceCode": "02",
+          "PostcodeSeq": "1",
+          "AmphurName": "เมือง",
+          "Postcode": "11000",
+          "CountryCode": "66",
+          "CountryName": "ไทย",
+          "ProvinceName": "นนทบุรี"
+        }
+      ]
+    }
+  },
+  "/prepaid-registration/registration/consent/accept": {
+    "post": {}
+  },
+  "/prepaid-registration/subscriber-number": {
+    "get": {
+      "subscriberNumber": "66812345678",
+      "waitTime": 100000
+    }
+  },
+  "/prepaid-registration/activate": {
+    "post": {
+      "subscriberNumber": "66812345678",
+      "status": "success"
+    }
+  },
+  "/prepaid-registration/verifyPin": {
+    "post": {
+      "status": "success"
+    }
+  },
+  "/prepaid-registration/permission": {
+    "get": {
+      "permissions": [
+        {
+          "name": "TOPUP",
+          "description": "เติมเงินออนไลน์",
+          "allow": "Y"
+        },
+        {
+          "name": "STV",
+          "description": "โปรเสริมออนไลน์",
+          "allow": "Y"
+        },
+        {
+          "name": "E-PIN",
+          "description": "ขายรหัสเงินสด",
+          "allow": "Y"
+        },
+        {
+          "name": "RECTIFY",
+          "description": "ดึงเงินคืน/ยกเลิกโปรเสริม",
+          "allow": "Y"
+        },
+        {
+          "name": "CHANGE_SIM",
+          "description": "ซิมใหม่เบอร์เดิม",
+          "allow": "Y"
+        },
+        {
+          "name": "PREPAID_REGISTRATION",
+          "description": "จดทะเบียนซิมเติมเงิน",
+          "allow": "Y"
+        },
+        {
+          "name": "PREPAID_RE-REGISTRATION",
+          "description": "แก้ไขข้อมูลซิมเติมเงิน",
+          "allow": "Y"
+        },
+        {
+          "name": "POSTPAID_REGISTRATION",
+          "description": "จดทะเบียนซิมรายเดือน",
+          "allow": "Y"
+        },
+        {
+          "name": "PRE2POST",
+          "description": "เปลี่ยนเติมเงินเป็นรายเดือน",
+          "allow": "Y"
+        },
+        {
+          "name": "PORTIN_PREPAID",
+          "description": "ย้ายค่ายเบอร์เดิม",
+          "allow": "Y"
+        },
+        {
+          "name": "RTR_PERFORMANCE",
+          "description": "รายงาน",
+          "allow": "Y"
+        },
+        {
+          "name": "STAFF_MANAGE",
+          "description": "จัดการพนักงาน",
+          "allow": "Y"
+        },
+        {
+          "name": "STAFF_PERMISSION",
+          "description": "จัดการสิทธิ์พนักงาน",
+          "allow": "Y"
+        },
+        {
+          "name": "BUY_DOL",
+          "description": "ซื้อเงินเข้าเบอร์ออนไลน์",
+          "allow": "Y"
+        },
+        {
+          "name": "BUY_DOL_HISTORY",
+          "description": "ดูรายการย้อนหลัง",
+          "allow": "Y"
+        },
+        {
+          "name": "RTR_PROFILE",
+          "description": "แก้ไขข้อมูลร้านค้า",
+          "allow": "Y"
+        },
+        {
+          "name": "ONLINE_STORE",
+          "description": "online store",
+          "allow": "Y"
+        }
+      ]
+    }
+  },
+  "/epin/epin": {
+    "post": {}
+  },
+  "/prepaid-registration/faceRecognition": {
+    "get": {
+      "byPass": true,
+      "attemptedCountBeforeKnowYourCustomer": 1
+    }
+  },
+  "/verify/password": {
+    "post": {
+      "status": "success"
+    }
+  },
+  "/prepaid-registration/compareCustomerPhoto": {
+    "post": {
+      "knowYourCustomer": false,
+      "knowYourCustomerError": null,
+      "confidence": 0.5,
+      "threshold": 0.8,
+      "nbtcStatusCode": "01",
+      "nbtcResponseMessage": "Match"
+    }
+  },
+  "/prepaid-registration/compareCustomerPhoto/version2": {
+    "post": {
+      "knowYourCustomer": true,
+      "knowYourCustomerError": {
+        "code": "55001",
+        "desc": "error ครับ"
+      },
+      "confidence": 0.5,
+      "threshold": 0.8,
+      "nbtcStatusCode": "01",
+      "nbtcResponseMessage": "Match"
+    }
+  },
+
+  "/prepaid-registration/siminfo": {
+    "get": {
+      "subscriberNumber": "66812345678",
+      "simcardNumber": "896605131142516157",
+      "companyCode": "10",
+      "simType": "PULL_MODE",
+      "subscriberNumbers": [
+        {
+          "number": "66812345678",
+          "numberSummation": 44,
+          "numberSummationStrength": "ฝีปากดี",
+          "numberSummationPowers": [
+            {
+              "type": "working",
+              "text": "การงาน",
+              "rating": 4
+            },
+            {
+              "type": "lucky",
+              "text": "การเงินโชคลาภ",
+              "rating": 5
+            },
+            {
+              "type": "loving",
+              "text": "ความรัก",
+              "rating": 3
+            }
+          ]
+        }
+      ],
+      "autoAssignNumberMessage": null
+    }
+  },
+  "/prepaid-registration/config/image/optional": {
+    "get": {
+      "optionals": ["ทก1", "ใบเปลี่ยนชื่อ", "อื่นๆ"]
+    }
+  },
+  "/login": {
+    "post": {
+      "id": 43925,
+      "token": "k1VzURRI5D1S4VFmGRHIsqVV9tJ2PMqRoCSvaVlQiIANhKnecABxSx64inVB9oOR",
+      "rtrName": "ผ้าห่มออนไลน์",
+      "simr": "66618941097",
+      "dtrCode": "938507",
+      "rtrCode": "71144425",
+      "dolStatus": "ACTIVE",
+      "status": "ACTIVE",
+      "userType": "OWNER",
+      "channel": "retail",
+      "subChannel": "area distribution",
+      "retailerType": "telecom",
+      "retailerSubType": "Blue shop"
+    }
+  },
+  "/pricelist": {
+    "get": [
+      {
+        "id": "1",
+        "price": 10,
+        "sort": 1
+      },
+      {
+        "id": "2",
+        "price": 20,
+        "sort": 2
+      },
+      {
+        "id": "3",
+        "price": 30,
+        "sort": 3
+      },
+      {
+        "id": "4",
+        "price": 40,
+        "sort": 4
+      },
+      {
+        "id": "5",
+        "price": 50,
+        "sort": 5
+      },
+      {
+        "id": "6",
+        "price": 60,
+        "sort": 6
+      },
+      {
+        "id": "7",
+        "price": 70,
+        "sort": 7
+      },
+      {
+        "id": "8",
+        "price": 80,
+        "sort": 8
+      }
+    ]
+  },
+  "/report/": {
+    "get": {
+      "dataAsOf": "2017-05-23 00:00:00",
+      "commissionAmount": 0.0,
+      "refillToRTRAmount": 0.0,
+      "refillToCustomerAmount": 0.0,
+      "stvToCustomerAmount": 0.0,
+      "epinToCustomerAmount": 100.0
+    }
+  },
+  "/news/v2/channel": {
+    "get": {
+      "newsTopic": [
+        "10-1001-CLS_PL",
+        "10-1001-RTR_CLASS_ARETLR_NORML-RC_ARETLR_NORMAL_RS_PRE_TRI"
+      ]
+    }
+  },
+  "/news/v2": {
+    "get": {
+      "contents": [
+        {
+          "newsId": 768,
+          "postedBy": {
+            "name": "Prepaid",
+            "profileImage": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/prepaid.jpg"
+          },
+          "contentPreview": "dtacOne_20180820_0956",
+          "postedDate": "2018-08-20 09:57:14"
+        },
+        {
+          "newsId": 764,
+          "postedBy": {
+            "name": "Prepaid",
+            "profileImage": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/prepaid.jpg"
+          },
+          "contentPreview": "dtacOne_20180817_1130",
+          "postedDate": "2018-08-17 11:30:34"
+        },
+        {
+          "newsId": 763,
+          "postedBy": {
+            "name": "Prepaid",
+            "profileImage": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/prepaid.jpg"
+          },
+          "contentPreview": "dtacOne_20180817_1126",
+          "postedDate": "2018-08-17 11:25:42"
+        },
+        {
+          "newsId": 762,
+          "postedBy": {
+            "name": "Prepaid",
+            "profileImage": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/prepaid.jpg"
+          },
+          "contentPreview": "dtacOne_20180817_1122",
+          "postedDate": "2018-08-17 11:22:31"
+        },
+        {
+          "newsId": 761,
+          "image": {
+            "thumbnail": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/3a178b16-e6f7-4f12-86e1-323d28f7b277.png",
+            "origin": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/3a178b16-e6f7-4f12-86e1-323d28f7b277.png",
+            "width": 1024,
+            "height": 1024
+          },
+          "postedBy": {
+            "name": "Prepaid",
+            "profileImage": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/prepaid.jpg"
+          },
+          "contentPreview": "dtacOne_20180816_2109_all_channel",
+          "postedDate": "2018-08-16 21:10:48"
+        },
+        {
+          "newsId": 754,
+          "postedBy": {
+            "name": "Prepaid",
+            "profileImage": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/prepaid.jpg"
+          },
+          "contentPreview": "dtacOne_20180816_1903_71144425",
+          "postedDate": "2018-08-16 19:04:10"
+        },
+        {
+          "newsId": 753,
+          "postedBy": {
+            "name": "Prepaid",
+            "profileImage": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/prepaid.jpg"
+          },
+          "contentPreview": "dtacOne_20180816_1856_71144425",
+          "postedDate": "2018-08-16 18:57:12"
+        },
+        {
+          "newsId": 752,
+          "image": {
+            "thumbnail": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/70cade20-ac88-4ef0-9ea4-b5f11bf4044c.png",
+            "origin": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/70cade20-ac88-4ef0-9ea4-b5f11bf4044c.png",
+            "width": 279,
+            "height": 180
+          },
+          "postedBy": {
+            "name": "Prepaid",
+            "profileImage": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/prepaid.jpg"
+          },
+          "contentPreview": "dtacOne_20180816_1849_71144425",
+          "postedDate": "2018-08-16 18:50:21"
+        },
+        {
+          "newsId": 748,
+          "image": {
+            "thumbnail": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/a3893dc8-99ed-47fb-b22c-01ae40a9758b.jpg",
+            "origin": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/a3893dc8-99ed-47fb-b22c-01ae40a9758b.jpg",
+            "width": 250,
+            "height": 250
+          },
+          "postedBy": {
+            "name": "Prepaid",
+            "profileImage": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/prepaid.jpg"
+          },
+          "contentPreview": "dtacOne_20180816_1736_logout",
+          "postedDate": "2018-08-16 17:37:45"
+        },
+        {
+          "newsId": 743,
+          "image": {
+            "thumbnail": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/6723939e-0c77-4aa0-a2de-017edcfdc462.png",
+            "origin": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/6723939e-0c77-4aa0-a2de-017edcfdc462.png",
+            "width": 1024,
+            "height": 1024
+          },
+          "postedBy": {
+            "name": "Prepaid",
+            "profileImage": "https://test-chkin.dtac.co.th/api/resources/3/be3fc3f9-5153-4a0a-b12e-b33f1a73b108/prepaid.jpg"
+          },
+          "contentPreview": "dtacOne_201808_2135_all",
+          "postedDate": "2018-08-15 21:35:33"
+        }
+      ]
+    }
+  }
+}
